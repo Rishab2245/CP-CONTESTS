@@ -12,7 +12,7 @@ async function contest(){
     element.remove();
   })
     if(input.value!=""){
-    sitename=input.value.replace(" ","_");
+    sitename=input.value.toLowerCase().replace(" ","_");
     console.log(sitename);
     await axios.get(url+sitename)
     .then(response=>{
