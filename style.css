@@ -61,7 +61,6 @@ body{
     padding: 1rem;
     margin: 1rem 0;
     border-left: 5px solid rgb(99, 30, 164);
-}
-.search-box-expands{
-
+    /* display: flex; */
+    font-size: 0.8em;
 }
