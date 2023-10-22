@@ -15,6 +15,10 @@
     />
   </head>
   <body>
+    <nav>
+      <p>Find_Your_Contest</p>
+      <button>download</button>
+    </nav>
     <section id="search-page">
       <div class="search-section">
         <div class="search-text">
@@ -31,12 +35,20 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
+        <div class="loader">
+
+        </div>
         <div class="search-result">
-         
+         <p id="noresult">Can't find the coding site</p>
         </div>
 
     </section>
+    <footer class="footer">
+      <button id="prev">prev</button>
+      <button id="next">next</button>
+    </footer>
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
-    <script src="app.js"></script>
+    
+    <script src="script.js"></script>
   </body>
 </html>
