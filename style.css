@@ -67,6 +67,7 @@ body{
     /* display: flex; */
     font-size: 0.8em;
 }
+
 nav{
     background-color: rgb(49, 0, 112);
     display: flex;
@@ -114,8 +115,6 @@ nav button {
     color: white;
 }
 .search-result #noresult{
-
-
 margin:2rem 0rem;
 text-align: center;
 display: none;
